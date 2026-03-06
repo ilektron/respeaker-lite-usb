@@ -1,2 +1,29 @@
 # respeaker-lite-usb
 Attempts at developing custom firmware for the reSpeaker Lite to enable some of the additional features over USB
+
+## What needs to be done in order to write a custom firware
+
+Most of this is based on [this thread](https://forum.seeedstudio.com/t/inquiry-regarding-respeaker-lite-voice-assistant-kit/294711/4) for where to start and things that need to be figured out
+
+Starting with an eval board example, 
+
+### The changes when compared to a reSpeaker Lite
+
+- Modify the board support config
+- Adjust mic channel assignments
+- Verify clock source assumptions
+- Possibly tune FIR/AEC stages
+
+## Tools and References
+
+### Disassembler
+
+[xobjdump](https://www.xmos.com/download/app_disassembling_a_program_example-README%281_1_1rc0_a%29.pdf/) 
+
+### Datasheets
+
+[X316 Datasheet](https://www.xmos.com/download/XU316-1024-xcore_ai-Datasheet(2_0_0).pdf/?ws_referrer_origin=https%3A%2F%2Fwww.google.com%2F)
+
+### Schematics
+
+### Firmwares
