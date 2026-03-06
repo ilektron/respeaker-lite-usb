@@ -16,13 +16,21 @@ Starting with an eval board example,
 
 ## Tools and References
 
+### Getting Development Started
+
+[Quickstart Guide for XMOS](https://www.xmos.com/download/xcore_ai-Evaluation-Kit-Quick-Start%286%29.pdf/)
+
 ### Disassembler
 
-[xobjdump](https://www.xmos.com/download/app_disassembling_a_program_example-README%281_1_1rc0_a%29.pdf/) 
+- [xobjdump](https://www.xmos.com/download/app_disassembling_a_program_example-README%281_1_1rc0_a%29.pdf/) 
 
 ### Datasheets
 
-[X316 Datasheet](https://www.xmos.com/download/XU316-1024-xcore_ai-Datasheet(2_0_0).pdf/?ws_referrer_origin=https%3A%2F%2Fwww.google.com%2F)
+- [X316 Datasheet](https://www.xmos.com/download/XU316-1024-xcore_ai-Datasheet(2_0_0).pdf/?ws_referrer_origin=https%3A%2F%2Fwww.google.com%2F)
+
+### Reference Design
+
+- [sw_usb_audio](https://www.xmos.com/documentation/XM-008854-UG/html/doc/rst/sw_usb_audio.html)
 
 ### Schematics
 
