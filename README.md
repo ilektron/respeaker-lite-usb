@@ -20,6 +20,10 @@ Starting with an eval board example,
 
 [Quickstart Guide for XMOS](https://www.xmos.com/download/xcore_ai-Evaluation-Kit-Quick-Start%286%29.pdf/)
 
+### Disassembler
+
+- [xobjdump](https://www.xmos.com/download/app_disassembling_a_program_example-README%281_1_1rc0_a%29.pdf/)
+ 
 In order to disassemble the binaries, you need to provide the `--march xs3a` flag because the xobjdump defaults to pulling architecture data from a `.xe` file which includes a lot more debug information than just the binary firmware
 
 For example
@@ -27,9 +31,6 @@ For example
 $ xobjdump  -d --march xs3a  respeaker_lite_usb_dfu_firmware_v2.0.7.bin
 ```
 
-### Disassembler
-
-- [xobjdump](https://www.xmos.com/download/app_disassembling_a_program_example-README%281_1_1rc0_a%29.pdf/) 
 
 ### Datasheets
 
